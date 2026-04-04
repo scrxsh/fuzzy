@@ -4,8 +4,8 @@ import { Contact } from "./pages/contact.js";
 
 const routes = {
     '/': Landing,
-    '/about': About,
-    '/contact': Contact
+    '/nosotros': About,
+    '/contacto': Contact
 }
 
 export function router(){
