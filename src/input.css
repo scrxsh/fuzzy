@@ -1,1 +1,55 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: "Jakarta Sans";
+    src: 
+        url(../public/assets/fonts/jakarta-sans.woff2) format("woff2"),
+        url(../public/assets/fonts/jakarta-sans.ttf) format("truetype");
+    font-display: swap;
+}
+
+:root {
+    font-family: "Jakarta Sans", sans-serif;
+    font-size: 16px;
+}
+
+@theme {
+    --color-surface-bright: #f8f9fb;
+    --color-outline: #737781;
+
+    --color-secondary-fixed-dim: #F9B233;
+    --color-surface-container-high: #e6e8ea;
+    --color-tertiary: #002b50;
+    --color-secondary: #F9B233;
+
+    --color-on-error: #ffffff;
+    --color-on-surface-variant: #424750;
+    --color-primary: #004077;
+
+    --color-outline-variant: #c2c6d1;
+    --color-surface-container-highest: #e0e3e5;
+    --color-on-tertiary: #ffffff;
+
+    --color-surface-dim: #d8dadc;
+    --color-background: #f8f9fb;
+
+    --color-on-secondary: #004077;
+    --color-inverse-surface: #2d3133;
+
+    --color-surface-container-low: #f2f4f6;
+    --color-on-surface: #191c1e;
+    --color-on-background: #191c1e;
+
+    --color-error-container: #ffdad6;
+    --color-secondary-container: #F9B233;
+
+    --color-surface-tint: #004077;
+    --color-tertiary-container: #1d4169;
+
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container: #eceef0;
+
+    --color-primary-container: #002a51;
+    --color-error: #ba1a1a;
+    --color-on-primary: #ffffff;
+}

@@ -1,14 +1,10 @@
-import { Header } from "./components/header.js";
-import { Footer } from "./components/footer.js";
 import { router } from "./router.js";
 
 function render(){
     const app = document.getElementById('app');
 
     app.innerHTML = `
-        ${Header()}
         ${router()}
-        ${Footer()}
     `;
 
     addEvents();

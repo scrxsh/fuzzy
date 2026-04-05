@@ -1,8 +1,11 @@
+import { Layout } from "../components/layout/layout.js";
+
 export function Contact() {
-    return `
+    return Layout(`
         <main class="p-12">
             <h2>Contacto</h2>
             <p>Email: contacto@misitio.com</p>
         </main>
-    `;
+    `
+    );
 }
