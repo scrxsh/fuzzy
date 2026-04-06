@@ -10,7 +10,7 @@ const routes = {
 
 export function router(){
     const path = window.location.pathname;
-    const view = routes[path] || Landing;
+    const view = routes[path];
 
     if(!view){
         return `<h2>404 - Página no encontrada</h2>`

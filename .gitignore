@@ -1,4 +1,4 @@
-# Archvvos de node.js
+#Ignorar node.js y output.css
 
 node_modules/
 src/output.css
