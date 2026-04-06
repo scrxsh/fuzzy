@@ -1,4 +1,5 @@
 import { router } from "./router.js";
+import { routerLinkActive } from "./router.js";
 
 function render(){
     const app = document.getElementById('app');
@@ -8,6 +9,7 @@ function render(){
     `;
 
     addEvents();
+    routerLinkActive()
 }
 
 function addEvents() {

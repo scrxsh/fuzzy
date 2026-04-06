@@ -11,19 +11,19 @@ export function Sidebar(){
         </div>
 
         <nav class="flex-1">
-            <a class="flex items-center gap-3 px-6 py-4 text-primary-container active-link href="/" data-link>
+            <a class="flex items-center gap-3 px-6 py-4 nav-link" href="/" data-link>
                 <i class="material-symbols-outlined" data-icon="home_app_logo">home_app_logo</i>
                 Inicio
             </a>
-            <a class="flex items-center gap-3 px-6 py-4 text-slate-500 nav-link" href="/nosotros" data-link>
+            <a class="flex items-center gap-3 px-6 py-4 nav-link" href="/demandas" data-link>
                 <i class="material-symbols-outlined" data-icon="cases">cases</i>
                 Generador de demanda
                 </a>
-            <a class="flex items-center gap-3 px-6 py-4 text-slate-500 nav-link" href="/contacto" data-link>
+            <a class="flex items-center gap-3 px-6 py-4 nav-link" href="/historial" data-link>
                 <i class="material-symbols-outlined" data-icon="history">history</i>
                 Historial
             </a>
-            <a class="flex items-center gap-3 px-6 py-4 text-slate-500 nav-link" href="#">
+            <a class="flex items-center gap-3 px-6 py-4 nav-link" href="/configuracion" data-link>
                 <i class="material-symbols-outlined" data-icon="settings">settings</i>
                 Configuración
             </a>
