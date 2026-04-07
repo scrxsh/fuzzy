@@ -7,12 +7,16 @@ Instalar las librerías con npm (solo se usan archivos de Tailwind), no usamos o
 ```bash
 npm i -i
 ```
-Luego, podemos usar live server de VSCode, recordemos que es un proyecto tipo SPA, lo cual a veces tiene conflicto con live server para ello vamos a usar los servidores locales de NodeJS con este comando (usar node ultima versión)
+Luego, podemos usar live server de VSCode, recordemos que es un proyecto tipo SPA, lo cual a veces tiene conflicto con live server para ello vamos a usar los servidores locales de NodeJS con este comando (usar node ultima versión) para el puerto 3000
 
 ```bash
 npx serve -s .
 ```
+También se puede compartir a otro equipo el localhost de la siguiente manera:
 
+```bash
+npx tunnelmole 3000
+```
 ## Compilación de los estilos
 Compilar **TailwindCSS** [(mas info)](https://tailwindcss.com/docs/installation/tailwind-cli), el archivo input esta ahí creado. Output se crea y se compila así:
 ``` bash
