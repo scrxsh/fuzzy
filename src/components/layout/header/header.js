@@ -10,6 +10,7 @@ export function Header(){
                 </button>
             </div>
             <div class="flex items-center gap-4 text-white/80">
+                <i class="material-symbols-outlined cursor-pointer hover:text-[#feb637] transition-colors">nightlight</i>
                 <i class="material-symbols-outlined cursor-pointer hover:text-[#feb637] transition-colors">notifications</i>
                 <i class="material-symbols-outlined cursor-pointer hover:text-[#feb637] transition-colors">account_circle</i>
             </div>
